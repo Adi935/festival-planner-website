@@ -1,0 +1,133 @@
+/* === Global === */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* === Hero Section === */
+.hero {
+    background: #5b46ff;
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin: 8px 0;
+}
+
+.hero h2 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.tagline {
+    margin: 15px 0 25px;
+    font-size: 18px;
+}
+
+.btn-enter {
+    text-decoration: none;
+    background: #ffffff;
+    color: #5b46ff;
+    border-radius: 8px;
+    padding: 12px 26px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.25s;
+}
+
+.btn-enter:hover {
+    background: #e6e6ff;
+    transform: scale(1.05);
+}
+
+/* === Subscribe Section === */
+.subscribe-section {
+    background: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.subscribe-section h2 {
+    margin-top: 0;
+}
+
+.subscribe-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subscribe-form input {
+    padding: 12px;
+    border-radius: 6px;
+    border: 2px solid #ccc;
+    font-size: 15px;
+}
+
+.subscribe-form button {
+    padding: 12px;
+    background: #5b46ff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.subscribe-form button:hover {
+    background: #4633d4;
+    transform: scale(1.03);
+}
+
+/* Form Group Section */
+.form-group {
+    text-align: left;
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.group-title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #333;
+}
+
+/* Radio & Checkbox Options */
+.radio-option,
+.check-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 6px 0;
+    font-size: 14px;
+}
+
+/* Make inputs slightly larger (better UX) */
+.radio-option input,
+.check-option input {
+    transform: scale(1.2);
+}

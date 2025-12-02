@@ -1,0 +1,158 @@
+<html>
+    <head>
+        <title>Music Festival Planner</title>
+        <link rel="stylesheet" href="styles/styles.css">
+       
+    </head>
+    <body>
+        <header>
+    <div class="header-left">
+        <img src="assets/logo1.png" class="logo">
+        <div class="header-text">
+            
+            <h1>Lollapalooza 2025 Planner</h1>
+            <h2>March 8/9, 2025</h2>
+            <h3>Mumbai, Maharashtra, India</h3>
+        </div>
+    </div>
+</header>
+
+    <main>
+        <div class="col" id="lineup">
+    <h2>Lineup</h2>
+
+    
+    <center><div class="day-toggle">
+        <button class="toggle-btn active" onclick="showDay('day1')">Day 1</button>
+        <button class="toggle-btn" onclick="showDay('day2')">Day 2</button>
+    </div></center>
+
+   
+<div id="day1" class="day-content active-day">
+
+    <div class="stage">
+        <h3 onclick="toggleStage(this)">BudX Stage</h3>
+        <ul class="stage-list">
+            <li data-day="Day 1" data-stage="BudX Stage"><span>Sid Vashi</span><span>3:30 PM</span></li>
+            <li data-day="Day 1" data-stage="BudX Stage"><span>Isabel LaRosa</span><span>4:45 PM</span></li>
+            <li data-day="Day 1" data-stage="BudX Stage"><span>Jonita</span><span>6:20 PM</span></li>
+            <li data-day="Day 1" data-stage="BudX Stage"><span>Shawn Mendes</span><span>8:25 PM</span></li>
+        </ul>
+    </div>
+
+    <div class="stage">
+        <h3 onclick="toggleStage(this)">H&M Stage</h3>
+        <ul class="stage-list">
+            <li data-day="Day 1" data-stage="H&M Stage"><span>Frizzell D'Souza</span><span>3:00 PM</span></li>
+            <li data-day="Day 1" data-stage="H&M Stage"><span>Lullanas</span><span>4:00 PM</span></li>
+            <li data-day="Day 1" data-stage="H&M Stage"><span>Talwiinder</span><span>5:30 PM</span></li>
+            <li data-day="Day 1" data-stage="H&M Stage"><span>Glass Animals</span><span>7:20 PM</span></li>
+        </ul>
+    </div>
+
+    <div class="stage">
+        <h3 onclick="toggleStage(this)">Perry's Stage</h3>
+        <ul class="stage-list">
+            <li data-day="Day 1" data-stage="Perry's Stage"><span>Philtersoup</span><span>3:00 PM</span></li>
+            <li data-day="Day 1" data-stage="Perry's Stage"><span>Sahil Vasudeva</span><span>4:30 PM</span></li>
+            <li data-day="Day 1" data-stage="Perry's Stage"><span>Anushka</span><span>6:00 PM</span></li>
+            <li data-day="Day 1" data-stage="Perry's Stage"><span>Spryk</span><span>7:10 PM</span></li>
+            <li data-day="Day 1" data-stage="Perry's Stage"><span>Zedd</span><span>8:30 PM</span></li>
+        </ul>
+    </div>
+
+    <div class="stage">
+        <h3 onclick="toggleStage(this)">NEXA Stage</h3>
+        <ul class="stage-list">
+            <li data-day="Day 1" data-stage="NEXA Stage"><span>NEXA Artists</span><span>3:00 PM</span></li>
+            <li data-day="Day 1" data-stage="NEXA Stage"><span>Dhanji</span><span>4:15 PM</span></li>
+            <li data-day="Day 1" data-stage="NEXA Stage"><span>dot.</span><span>5:30 PM</span></li>
+            <li data-day="Day 1" data-stage="NEXA Stage"><span>Cory Wong</span><span>7:20 PM</span></li>
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+<div id="day2" class="day-content">
+
+    <div class="stage">
+        <h3 onclick="toggleStage(this)">BudX Stage</h3>
+        <ul class="stage-list">
+            <li data-day="Day 2" data-stage="BudX Stage"><span>Green Park</span><span>3:30 PM</span></li>
+            <li data-day="Day 2" data-stage="BudX Stage"><span>Raman Negi</span><span>4:45 PM</span></li>
+            <li data-day="Day 2" data-stage="BudX Stage"><span>Nothing But Thieves</span><span>6:20 PM</span></li>
+            <li data-day="Day 2" data-stage="BudX Stage"><span>Green Day</span><span>8:25 PM</span></li>
+        </ul>
+    </div>
+
+    <div class="stage">
+        <h3 onclick="toggleStage(this)">H&M Stage</h3>
+        <ul class="stage-list">
+            <li data-day="Day 2" data-stage="H&M Stage"><span>Raghav Meattle</span><span>2:45 PM</span></li>
+            <li data-day="Day 2" data-stage="H&M Stage"><span>Niladri Kumar</span><span>3:45 PM</span></li>
+            <li data-day="Day 2" data-stage="H&M Stage"><span>Aurora</span><span>5:10 PM</span></li>
+            <li data-day="Day 2" data-stage="H&M Stage"><span>Louis Tomlinson</span><span>7:10 PM</span></li>
+        </ul>
+    </div>
+
+    <div class="stage">
+        <h3 onclick="toggleStage(this)">Perry's Stage</h3>
+        <ul class="stage-list">
+            <li data-day="Day 2" data-stage="Perry's Stage"><span>Adi & Dishaan</span><span>3:00 PM</span></li>
+            <li data-day="Day 2" data-stage="Perry's Stage"><span>Sudan</span><span>4:30 PM</span></li>
+            <li data-day="Day 2" data-stage="Perry's Stage"><span>Raftaar x Kr$na</span><span>6:00 PM</span></li>
+            <li data-day="Day 2" data-stage="Perry's Stage"><span>Alok</span><span>7:10 PM</span></li>
+            <li data-day="Day 2" data-stage="Perry's Stage"><span>John Summit</span><span>8:30 PM</span></li>
+        </ul>
+    </div>
+
+    <div class="stage">
+        <h3 onclick="toggleStage(this)">NEXA Stage</h3>
+        <ul class="stage-list">
+            <li data-day="Day 2" data-stage="NEXA Stage"><span>NEXA Artists</span><span>3:00 PM</span></li>
+            <li data-day="Day 2" data-stage="NEXA Stage"><span>Lisa Mishra</span><span>4:30 PM</span></li>
+            <li data-day="Day 2" data-stage="NEXA Stage"><span>Wave to Earth</span><span>6:00 PM</span></li>
+            <li data-day="Day 2" data-stage="NEXA Stage"><span>Hanumankind</span><span>7:10 PM</span></li>
+        </ul>
+    </div>
+
+</div>
+
+</div>
+</div> 
+<div class="col">
+    <h2>Festival Map</h2>
+    <img src="assets/festmap.jpg" class="festival-map" style="width:100%; border-radius:8px;">
+</div>
+
+
+
+</div>
+
+    </div>
+ 
+        <div class="col" id="yourPlan">
+            <h2>Your Plan</h2>
+            <ul id="planList"></ul>
+            <button class="reset-btn" onclick="resetPlan()">Reset Plan</button>
+
+        </div>
+
+
+    
+    <footer>
+        Aditya Mhatre | 25070146011
+    </footer>
+        
+    <script src = "scripts/planner.js">
+        </script>
+
+
+    </body>
+</html>
+
+
